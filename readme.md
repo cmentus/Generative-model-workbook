@@ -1,28 +1,9 @@
 # Tensor Flow Generative Models
 
-A simple library for building and experimenting with generative models. 
+A simple library for learning and experimenting with generative models: GAN, VAE and others.
 
-# GAN
-
-To start out, we write functions to make generator, discriminator, JS and Wasserstein losses and training loop.
-
-Training loop will take a visualization script. 
-
-visualize : real, generated -> output a picture
-
-# VAE
-We will make encoder, latent_sampler (with kl-loss) and decoder.
-
-We will add various probabilistic loss capabilities as well as sampling so we can make various empirical Bayes models. 
-
-# Future:
-
-Importance samplling weights GAN for causal inference.
-
-Categorical latent space. 
-
-Conv nets, cycle gans, graph neural network.
-
-Analysis, model comparison, diagnostics toolbox.
-
-Make pytorch etc versiou.
+# GAN workbook
+Challenges:
+* Challenge 1: Gan to generate mixture of gaussian
+* Challenge 2: Cycle GAN to transform between two dimensional probability measures.
+* Challenge 3: GAN for importance sampling weights for control and treatment groups.
