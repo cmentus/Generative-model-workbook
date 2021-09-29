@@ -1,6 +1,9 @@
 # Tensor Flow Generative Models
 
-A simple library for learning and experimenting with generative models: GAN, VAE and others.
+* A simple repo for learning and experimenting with generative models: GAN, VAE and others.
+* The aim is to provide a simple framework for building a variety of models and prototyping them in simple settings.
+* Emphasis is on the probabilistic aspects of generative models such as how close is the generator to the true data generating process.
+* This might be useful as coursework teaching GAN to undergrads/grads.
 
 # GAN workbook
 Challenges:
